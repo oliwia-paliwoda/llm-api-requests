@@ -1,7 +1,8 @@
 import { Mistral } from "@mistralai/mistralai";
+import 'dotenv/config'
 
 const mistral = new Mistral({
-    apiKey: "",
+    apiKey: process.env.MISTRAL_API_KEY ?? "",
 });
 
 async function mistralRun(prompt: string) {
@@ -15,7 +16,7 @@ async function mistralRun(prompt: string) {
         ],
     });
 
-    console.log("mistral: ", result.choices);
+    console.log("mistral: ", result.choices[0]?.message?.content);
 }
 
 export default mistralRun;

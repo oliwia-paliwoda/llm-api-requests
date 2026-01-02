@@ -5,6 +5,7 @@ import "../src/prompts.json" with { type: "json" };
 import fs from "fs";
 import deepseek from "./clients/deepseek.js";
 
+
 async function main() {
 
     const prompts = await import("../src/prompts.json", { with: { type: "json" } });
@@ -18,9 +19,9 @@ async function main() {
 
     try {
         for (const item of promptList) {
-            //await chatGptRun(item.prompt);
-            //await mistralRun(item.prompt);
-            //await deepseekRun(item.prompt);
+            await chatGptRun(item.prompt);
+            await mistralRun(item.prompt);
+            await deepseekRun(item.prompt);
         }
     } catch (err) {
         console.error("error: ", err);

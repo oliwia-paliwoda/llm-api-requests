@@ -1,8 +1,9 @@
 import OpenAI from "openai";
+import 'dotenv/config'
 
 const openai = new OpenAI({
     baseURL: 'https://api.deepseek.com',
-    apiKey: "",
+    apiKey: process.env.DEEPSEEK_API_KEY ?? "",
 });
 
 async function deepseekRun(prompt: string) {
@@ -15,7 +16,7 @@ async function deepseekRun(prompt: string) {
         model: "deepseek-chat",
     });
 
-    console.log("deepseek: ", result.choices);
+    console.log("deepseek: ", result.choices[0]?.message?.content);
 }
 
 export default deepseekRun;

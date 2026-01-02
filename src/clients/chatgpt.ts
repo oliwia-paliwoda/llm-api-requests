@@ -1,7 +1,8 @@
 import OpenAI from "openai";
+import 'dotenv/config'
 
 const openai = new OpenAI({
-    apiKey: "",
+    apiKey: process.env.OPENAI_API_KEY ?? "",
 });
 
 async function chatGptRun (prompt: string) {
@@ -15,7 +16,9 @@ async function chatGptRun (prompt: string) {
         ],
     })
 
-    console.log("chatgpt: ", result.choices);
+    if (result.choices.length > 0) {
+        console.log("chatgpt: ", result.choices[0]?.message?.content);
+    }
 }
 
 export default chatGptRun;
