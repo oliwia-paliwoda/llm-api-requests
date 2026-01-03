@@ -17,7 +17,7 @@ async function chatGptRun (prompt: string) {
     })
 
     if (result.choices.length > 0) {
-        console.log("chatgpt: ", result.choices[0]?.message?.content);
+        return result.choices[0]?.message?.content
     }
 }
 

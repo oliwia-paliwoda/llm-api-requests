@@ -16,7 +16,7 @@ async function deepseekRun(prompt: string) {
         model: "deepseek-chat",
     });
 
-    console.log("deepseek: ", result.choices[0]?.message?.content);
+    return result.choices[0]?.message?.content
 }
 
 export default deepseekRun;

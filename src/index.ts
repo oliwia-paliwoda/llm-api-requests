@@ -1,10 +1,17 @@
 import mistralRun from "./clients/mistral.js";
 import deepseekRun from "./clients/deepseek.js";
 import chatGptRun from "./clients/chatgpt.js";
-import "../src/prompts.json" with { type: "json" };
-import fs from "fs";
-import deepseek from "./clients/deepseek.js";
+import type {ContentChunk} from "@mistralai/mistralai/models/components/index.js";
+import csvParse from "./csvParse.js";
+import fileWrite from "./fileWrite.js";
 
+export type LLMResponse = {
+    id: number,
+    prompt: string,
+    chatgpt: string | null | undefined,
+    deepseek: string | null | undefined,
+    mistral: string | null | undefined | Array<ContentChunk>,
+}
 
 async function main() {
 
@@ -18,11 +25,28 @@ async function main() {
     const promptList: PromptItem[] = prompts.default as PromptItem[];
 
     try {
+
+        const responsesArray : LLMResponse[] = [];
+
         for (const item of promptList) {
-            await chatGptRun(item.prompt);
-            await mistralRun(item.prompt);
-            await deepseekRun(item.prompt);
+            const chatgpt = await chatGptRun(item.prompt);
+            const mistral = await mistralRun(item.prompt);
+            const deepseek = await deepseekRun(item.prompt);
+
+            const response: LLMResponse = {
+                id: item.id,
+                prompt: item.prompt,
+                chatgpt: chatgpt,
+                mistral: mistral,
+                deepseek: deepseek,
+            }
+
+            responsesArray.push(response);
         }
+
+        console.log(responsesArray);
+        fileWrite(csvParse(responsesArray),'csv','output.csv');
+
     } catch (err) {
         console.error("error: ", err);
     }

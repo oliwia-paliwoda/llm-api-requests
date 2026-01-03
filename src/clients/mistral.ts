@@ -16,7 +16,7 @@ async function mistralRun(prompt: string) {
         ],
     });
 
-    console.log("mistral: ", result.choices[0]?.message?.content);
+    return result.choices[0]?.message?.content
 }
 
 export default mistralRun;
