@@ -4,6 +4,8 @@ import chatGptRun from "./clients/chatgpt.js";
 import type {ContentChunk} from "@mistralai/mistralai/models/components/index.js";
 import csvParse from "./csvParse.js";
 import fileWrite from "./fileWrite.js";
+import showMenu from "./menu.js";
+import csvJSON from "./inputReader.js";
 
 export type LLMResponse = {
     id: number,
@@ -13,7 +15,13 @@ export type LLMResponse = {
     mistral: string | null | undefined | Array<ContentChunk>,
 }
 
+enum MenuAction {
+    Run = 1,
+    Update = 2,
+}
+
 async function main() {
+
 
     const prompts = await import("../src/prompts.json", { with: { type: "json" } });
 
@@ -52,4 +60,10 @@ async function main() {
     }
 }
 
-main();
+const action : number = await showMenu();
+if (action === MenuAction.Run) {
+    main();
+}
+if (action === MenuAction.Update) {
+    csvJSON();
+}
