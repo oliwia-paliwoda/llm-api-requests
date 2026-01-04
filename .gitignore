@@ -10,3 +10,4 @@
 .env
 /dist
 /csv
+/src/prompts.json
