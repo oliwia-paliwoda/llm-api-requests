@@ -6,6 +6,7 @@ import csvParse from "./csvParse.js";
 import fileWrite from "./fileWrite.js";
 import showMenu from "./menu.js";
 import csvJSON from "./inputReader.js";
+import filter from "./filtering/filter.js";
 
 export type LLMResponse = {
     id: number,
