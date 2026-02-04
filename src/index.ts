@@ -31,7 +31,10 @@ async function main() {
         prompt: string;
     }
 
-    const promptList: PromptItem[] = prompts.default as PromptItem[];
+    const promptList: PromptItem[] = prompts.default.map(p => ({
+        id: Number(p.id),
+        prompt: p.prompt,
+    }));
 
     try {
 
