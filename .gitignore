@@ -9,5 +9,6 @@
 /node_modules
 .env
 /dist
-/csv
+/csv/output.csv
+/csv/prompts.csv
 /src/prompts.json

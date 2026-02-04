@@ -5,7 +5,7 @@ import type {ContentChunk} from "@mistralai/mistralai/models/components/index.js
 import csvParse from "./csvParse.js";
 import fileWrite from "./fileWrite.js";
 import showMenu from "./menu.js";
-import csvJSON from "./inputReader.js";
+import csvToJson from "./csvToJson.js";
 import filter from "./filtering/filter.js";
 
 export type LLMResponse = {
@@ -66,5 +66,5 @@ if (action === MenuAction.Run) {
     main();
 }
 if (action === MenuAction.Update) {
-    csvJSON();
+    csvToJson();
 }

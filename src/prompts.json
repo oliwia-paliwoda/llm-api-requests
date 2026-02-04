@@ -1,3 +1,402 @@
 [
-  { "id": 1, "prompt": "what is your name?" }
+  {
+    "id": "1",
+    "prompt": "In what way are a car and a bicycle alike?"
+  },
+  {
+    "id": "2",
+    "prompt": "How are anger and fear similar?"
+  },
+  {
+    "id": "3",
+    "prompt": "In what way are lion and tiger similar?"
+  },
+  {
+    "id": "4",
+    "prompt": "What does the word \"\"reluctant\"\" mean?"
+  },
+  {
+    "id": "5",
+    "prompt": "What does \"\"consequence\"\" mean?"
+  },
+  {
+    "id": "6",
+    "prompt": "Define the word \"\"efficient\"\"."
+  },
+  {
+    "id": "7",
+    "prompt": "Why do we have laws?"
+  },
+  {
+    "id": "8",
+    "prompt": "What should you do if you find someone's wallet on the street?"
+  },
+  {
+    "id": "9",
+    "prompt": "Why is it important to keep promises?"
+  },
+  {
+    "id": "10",
+    "prompt": "If you buy three items costing $4 each, how much do you pay in total and why?"
+  },
+  {
+    "id": "11",
+    "prompt": "A train travels 60 miles in one hours. How far will it travel in 30 minutes and why?"
+  },
+  {
+    "id": "12",
+    "prompt": "If 12 people share $96 equaly, how much does each person get?"
+  },
+  {
+    "id": "13",
+    "prompt": "In what way are a hypothesis and a theory alike?"
+  },
+  {
+    "id": "14",
+    "prompt": "How are justice and fairness similar?"
+  },
+  {
+    "id": "15",
+    "prompt": "What do memory and attention have in common?"
+  },
+  {
+    "id": "16",
+    "prompt": "What does \"\"obsolete\"\" mean?"
+  },
+  {
+    "id": "17",
+    "prompt": "Why is freedom of speech important in a society?"
+  },
+  {
+    "id": "18",
+    "prompt": "Why do conflicts arise between groups with different values?"
+  },
+  {
+    "id": "19",
+    "prompt": "Why is it important to distinguish facts from opinions?"
+  },
+  {
+    "id": "20",
+    "prompt": "Why do societies establish systems of punishment?"
+  },
+  {
+    "id": "21",
+    "prompt": "What is the purpose of a constitution?"
+  },
+  {
+    "id": "22",
+    "prompt": "What does it mean when interest rates increase?"
+  },
+  {
+    "id": "23",
+    "prompt": "Why does inflation reduce purchasing power?"
+  },
+  {
+    "id": "24",
+    "prompt": "What is the function of the nervous system?"
+  },
+  {
+    "id": "25",
+    "prompt": "What is the pathophysiological mechanism behind orthopnea in heart failure?"
+  },
+  {
+    "id": "26",
+    "prompt": "Why does hyperkalemia cause characteristic ECG changes?"
+  },
+  {
+    "id": "27",
+    "prompt": "What mechanisms lead to metabolic acidosis in septic shock?"
+  },
+  {
+    "id": "28",
+    "prompt": "Why does chronic hypoxia result in secondary polycythemia?"
+  },
+  {
+    "id": "29",
+    "prompt": "Why can non-selective beta-blockers worsen asthma symptoms?"
+  },
+  {
+    "id": "30",
+    "prompt": "How does the use of chiaroscuro differ between Caravaggio and Rembrandt in terms of narrative function?"
+  },
+  {
+    "id": "31",
+    "prompt": "In what ways does Mannerism represent a conscious departure from High Renaissance ideals?"
+  },
+  {
+    "id": "32",
+    "prompt": "How does the iconography of the Piet? evolve from the late Middle Ages to the Baroque?"
+  },
+  {
+    "id": "33",
+    "prompt": "What distinguishes formal analysis from iconological interpretation in art history?"
+  },
+  {
+    "id": "34",
+    "prompt": "How does Kant�s concept of disinterested pleasure apply to contemporary art?"
+  },
+  {
+    "id": "35",
+    "prompt": "Why does TCP require a three-way handshake?"
+  },
+  {
+    "id": "36",
+    "prompt": "Why can premature optimization degrade software quality?"
+  },
+  {
+    "id": "37",
+    "prompt": "Why does Dijkstra�s algorithm fail with negative edge weights?"
+  },
+  {
+    "id": "38",
+    "prompt": "What are the differences between a process and a thread at the OS level?"
+  },
+  {
+    "id": "39",
+    "prompt": "Why is hashing used instead of encryption for password storage?"
+  },
+  {
+    "id": "40",
+    "prompt": "Why does progressive overload lead to muscular hypertrophy?"
+  },
+  {
+    "id": "41",
+    "prompt": "Why does improper hip�knee alignment increase the risk of ACL injury?"
+  },
+  {
+    "id": "42",
+    "prompt": "Why are hamstring strains common in sprint-based sports?"
+  },
+  {
+    "id": "43",
+    "prompt": "How do pacing strategies differ between middle-distance and endurance events?"
+  },
+  {
+    "id": "44",
+    "prompt": "How does eccentric training differ from concentric training in terms of adaptation?"
+  },
+  {
+    "id": "45",
+    "prompt": "What metrics are most informative for evaluating player performance in competitive MOBAs?"
+  },
+  {
+    "id": "46",
+    "prompt": "How does skill-based matchmaking affect player retention and engagement?"
+  },
+  {
+    "id": "47",
+    "prompt": "Why is environmental storytelling effective in open-world games?"
+  },
+  {
+    "id": "48",
+    "prompt": "How does level design manipulate player exploration and pacing?"
+  },
+  {
+    "id": "49",
+    "prompt": "How do shaders influence rendering performance and visual fidelity?"
+  },
+  {
+    "id": "50",
+    "prompt": "Why is it important to rest meat after cooking, and how does it affect juiciness?"
+  },
+  {
+    "id": "51",
+    "prompt": "Why does adding salt to vegetables before cooking influence both flavor and water content?"
+  },
+  {
+    "id": "52",
+    "prompt": "What is the difference in flavor and texture outcomes between steaming vs. stir-frying vegetables?"
+  },
+  {
+    "id": "53",
+    "prompt": "Why does browning of butter create a different flavor profile than melting it?"
+  },
+  {
+    "id": "54",
+    "prompt": "What distinguishes confit techniques in French cuisine from slow-cooking in other traditions?"
+  },
+  {
+    "id": "55",
+    "prompt": "How do ADCs and DACs convert signals, and what factors limit their precision?"
+  },
+  {
+    "id": "56",
+    "prompt": "Why does an RC circuit act as a low-pass filter, and how is the cutoff frequency determined?"
+  },
+  {
+    "id": "57",
+    "prompt": "How do common-emitter, common-collector, and common-base configurations differ in performance?"
+  },
+  {
+    "id": "58",
+    "prompt": "Why is phase shift important in filter and oscillator design?"
+  },
+  {
+    "id": "59",
+    "prompt": "Why does a buck converter step down voltage more efficiently than a linear regulator?"
+  },
+  {
+    "id": "60",
+    "prompt": "Why do birds have a four-chambered heart while reptiles generally have a three-chambered heart?"
+  },
+  {
+    "id": "61",
+    "prompt": "Why do some marine invertebrates rely on bioluminescent symbionts?"
+  },
+  {
+    "id": "62",
+    "prompt": "How do keystone species influence community structure and biodiversity?"
+  },
+  {
+    "id": "63",
+    "prompt": "How do predator�prey interactions drive evolutionary arms races?"
+  },
+  {
+    "id": "64",
+    "prompt": "What is the evolutionary significance of convergent evolution in marsupial and placental mammals?"
+  },
+  {
+    "id": "65",
+    "prompt": "In what ways did jazz improvisation influence 20th-century classical composers?"
+  },
+  {
+    "id": "66",
+    "prompt": "How does sonata-allegro form structure thematic development in Classical-era works?"
+  },
+  {
+    "id": "67",
+    "prompt": "What is the difference between diatonic and chromatic harmony in practice?"
+  },
+  {
+    "id": "68",
+    "prompt": "Why is the analysis of rhythm and meter crucial in understanding African drumming traditions?"
+  },
+  {
+    "id": "69",
+    "prompt": "How do conductors communicate subtle tempo and dynamic changes to an orchestra?"
+  },
+  {
+    "id": "70",
+    "prompt": "Arnold is taller than Bill. Bill is taller than Charlie. David is also taller than Charlie. Which of these statements is true and why? A. David is taller than Arnold B. David is taller than Bill C. Arnold is taller than David D. Bill is taller than David E. None of the above"
+  },
+  {
+    "id": "71",
+    "prompt": "Emma finishes her work before Fiona. George finishes after Fiona but before Hannah. Who finishes last and why?"
+  },
+  {
+    "id": "72",
+    "prompt": "Alice is the mother of Bob. Bob is the brother of Carol. Carol is the mother of David. How is Alice related to David? Why?"
+  },
+  {
+    "id": "73",
+    "prompt": "Five cars � Red, Blue, Green, Yellow, and White � are parked in a row. The Red car is immediately to the left of the Blue car. The Green car is at one of the ends. The Yellow car is next to the White car. Which car is in the middle? Why?"
+  },
+  {
+    "id": "74",
+    "prompt": "Three friends have different numbers of apples. Tom has more apples than Jerry. Jerry has fewer apples than Sam. Sam has fewer apples than Tom. Who has the most apples? Why?"
+  },
+  {
+    "id": "75",
+    "prompt": "Tell me The Little Mermaid story with details."
+  },
+  {
+    "id": "76",
+    "prompt": "Tell me the plot of Shakespeare's Romeo and Juliet. Make it detailed."
+  },
+  {
+    "id": "77",
+    "prompt": "Tell me a story about Little Red Riding Hood as if you were talking to children audience."
+  },
+  {
+    "id": "78",
+    "prompt": "Describe the events of World War II in Poland."
+  },
+  {
+    "id": "79",
+    "prompt": "Which empire was the most powerful in world history? Why?"
+  },
+  {
+    "id": "80",
+    "prompt": "Analyze the impact of Alexander the Great on the spread of Hellenistic culture."
+  },
+  {
+    "id": "81",
+    "prompt": "Discuss the causes and consequences of the fragmentation of Poland during the 13th century."
+  },
+  {
+    "id": "82",
+    "prompt": "Explain the causes and global consequences of the American and French Revolutions."
+  },
+  {
+    "id": "83",
+    "prompt": "Analyze the themes of fate and free will in Sophocles� Oedipus Rex."
+  },
+  {
+    "id": "84",
+    "prompt": "How do the themes of fate and free will manifest in Sophocles� Oedipus Rex?"
+  },
+  {
+    "id": "85",
+    "prompt": "How does the allegorical structure of Dante�s Divine Comedy convey moral and philosophical ideas?"
+  },
+  {
+    "id": "86",
+    "prompt": "How does Mary Shelley employ Gothic elements in Frankenstein to explore societal fears?"
+  },
+  {
+    "id": "87",
+    "prompt": "How do George Orwell�s 1984 and Aldous Huxley�s Brave New World differently depict dystopian societies?"
+  },
+  {
+    "id": "88",
+    "prompt": "What role does the chorus play in Greek tragedy, and how does it shape the audience�s perception?"
+  },
+  {
+    "id": "89",
+    "prompt": "How do adjectives and adverbs differ in their function and placement within a sentence?"
+  },
+  {
+    "id": "90",
+    "prompt": "How does the present perfect tense differ from the simple past tense in meaning and usage?"
+  },
+  {
+    "id": "91",
+    "prompt": "How are conditional sentences classified, and how do they differ in meaning and verb form?"
+  },
+  {
+    "id": "92",
+    "prompt": "How is the passive voice constructed, and when is it more appropriate than the active voice?"
+  },
+  {
+    "id": "93",
+    "prompt": "How do hyphens, en dashes, and em dashes function differently in English writing?"
+  },
+  {
+    "id": "94",
+    "prompt": "How does the definition of a group differ from that of a ring or a field, and why are these structures fundamental in algebra?"
+  },
+  {
+    "id": "95",
+    "prompt": "How do vector spaces and subspaces relate to the solutions of systems of linear equations?"
+  },
+  {
+    "id": "96",
+    "prompt": "How are anxiety disorders classified, and what are the cognitive-behavioral mechanisms underlying them?"
+  },
+  {
+    "id": "97",
+    "prompt": "How do cognitive biases, such as confirmation bias or availability heuristic, influence decision-making?"
+  },
+  {
+    "id": "98",
+    "prompt": "How are personality disorders diagnosed, and what challenges exist in differentiating between overlapping traits?"
+  },
+  {
+    "id": "99",
+    "prompt": "How do memory processes (encoding, storage, retrieval) interact to influence learning and recall?"
+  },
+  {
+    "id": "100",
+    "prompt": "How do cultural factors shape the expression and perception of mental health symptoms?"
+  }
 ]

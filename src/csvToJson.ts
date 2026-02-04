@@ -1,11 +1,11 @@
 import fs from 'fs';
 import fileWrite from "./fileWrite.js";
 
-function csvJSON () {
+function csvToJson () {
 
     try {
         const filePath : string = "./csv/prompts.csv";
-        const writePath: string = "./csv/prompts1.json";
+        const writePath: string = "./src/prompts.json";
         const csv: string = fs.readFileSync(filePath, "utf-8");
         const lines : string[] = csv.split('\n').filter(line => line.trim() !== '');
 
@@ -36,5 +36,5 @@ function csvJSON () {
 
 }
 
-export default csvJSON;
+export default csvToJson;
 
